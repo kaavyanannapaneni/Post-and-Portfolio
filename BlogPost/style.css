@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bitter', serif;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: -1.5px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 0px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 0.25px;
+}
+
+h5 {
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  font-weight: 700;
+}
+
+.hero-section {
+  height: 100vh;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section h1,
+.hero-section p {
+  width: 50%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.hero-section hr {
+  color: white;
+  width: 50%;
+}
+
+.hero-content hr {
+  color: white;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.info {
+  font-family: 'Bitter', serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.intro p:first-of-type {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.info span {
+  color: #e95400;
+}
+.quote {
+  font-style: italic;
+  font-size: 14px;
+  border-left: 2px solid #e95400;
+  padding: 0 20px;
+  margin: 32px 0 32px 32px;
+}
+
+.quote cite {
+  display: block;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+code {
+  color: #e95400;
+  font-weight: bold;
+}
+
+footer {
+  background-color: blueviolet;
+  color: white;
+}
+
+.footer ul {
+  width: 100vw;
+  text-align: center;
+  padding: 16px 0;
+  margin: 0;
+}
+
+.footer ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
